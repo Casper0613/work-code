@@ -11,7 +11,6 @@
     this script correctly.
 
     NB: !! Do not remove/modify the code delimited by dashes !!
-
     This application is intended to be partly marked in an automated manner.
     Altering delimited code may result in a mark of 0.
     ---------------------------------------------------------------------
@@ -35,9 +34,6 @@ import pandas as pd
 import numpy as np
 
 # Custom Libraries
-from utils.data_loader import load_movie_titles
-from recommenders.collaborative_based import collab_model
-from recommenders.content_based import content_model
 import matplotlib
 import seaborn as sns 
 import matplotlib.pyplot as plt 
